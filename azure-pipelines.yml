@@ -3,17 +3,38 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+#what branch we are watching
 trigger:
-- master
+  - 'master'
 
-pool:
+pool: 
   vmImage: 'ubuntu-latest'
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+variables:
+- name: 'Student' 
+  value: 'Sulav'
+#watch for PR's
+pr: 'none'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+#groups sequential actions
+stages:
+  - stage:
+    jobs:
+      - job: 'build'
+        steps:
+          - script: dotnet build 'pipeLineMvcDemo/pipeLineMvcDemo.csproj'
+          - script: echo "Hey there $(Student)!"
+
+      - job: 'test'
+        dependsOn: 'build'
+        steps:
+          - script: 'dotnet test'
+
+      - job: 'publish'
+        dependsOn: 'test'
+        steps:
+          - script: 'dotnet publish'
+
+name: '$(date:yyyyMMdd)$(rev:rr)'
+
+        
