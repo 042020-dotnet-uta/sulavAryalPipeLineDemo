@@ -1,2 +1,0 @@
-# sulavAryalPipeLineDemo
-Pipeline demo repo
