@@ -1,0 +1,15 @@
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Repository.deps.json
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Repository.runtimeconfig.json
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Repository.runtimeconfig.dev.json
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Repository.dll
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Repository.pdb
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Domain.dll
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\bin\Debug\netcoreapp3.1\ConsoleShopper.Domain.pdb
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.csprojAssemblyReference.cache
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.csproj.CoreCompileInputs.cache
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.AssemblyInfoInputs.cache
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.AssemblyInfo.cs
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.csproj.CopyComplete
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.dll
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.pdb
+C:\Revature\sulavAryal-repo0\Project 0_Working\ConsoleShopper.Repository\obj\Debug\netcoreapp3.1\ConsoleShopper.Repository.genruntimeconfig.cache
