@@ -1,0 +1,30 @@
+trigger:
+- master
+
+# using ubuntu latest vmImage
+pool:
+  vmImage: 'ubuntu-latest'
+
+pr: 'none'
+
+stages:
+  - stage:
+    jobs:
+      - job: 'build'
+        steps:
+          - task: SonarCloudPrepare@1
+            inputs:
+              SonarCloud: 'sulavAryalPipeLineDemo'
+              organization: '042020-dotnet-uta'
+              scannerMode: 'MSBuild'
+              projectKey: '042020-dotnet-uta'
+              projectName: 'Proj0-NoService'
+          - script: dotnet build 'ConsoleShopper\ConsoleShopper.UI\ConsoleShopper.UI.csproj'
+          - script: echo 'Project built'
+          - script: dotnet test 'ConsoleShopper\ConsoleShopper.Tests\ConsoleShopper.Tests.csproj'
+
+          - task: SonarCloudAnalyze@1
+      - job: 'publish'
+        dependsOn: 'build'
+        steps:
+          - script: dotnet publish 'ConsoleShopper\'ConsoleShopper.sln'
